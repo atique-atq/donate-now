@@ -222,6 +222,7 @@ body{
 #update-section{
     margin-top: 7%;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 #update-section h1{
@@ -273,6 +274,7 @@ footer{
 #footer-text{
     color: orange;
     margin: 0px;
+    font-family: monospace;
 }
 
 footer p{
