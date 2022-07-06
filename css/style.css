@@ -4,7 +4,8 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.top-banner{
+#top-banner{
+    padding-top: 30px;
     background-image: url(../images/bg/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -14,16 +15,71 @@ body{
     height: 350px;
     color: white;
 }
-.banner-text h1{
+
+#banner-text h1{
     font-size: 45px;
+    margin: 5px;
 }
-.banner-text p{
+
+#banner-text p{
+    margin-top: 50px;
     color:floralwhite;
 }
+
 .tomato-button{
     text-decoration: none;
     background-color: tomato;
     color: white;
-    padding: 5px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
+}
+
+#donate-now{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#donate-now p{
+    color: rgb(152, 147, 147);
+    font-family: sans-serif;
+}
+
+.donate-box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-box{
+    margin-left: 20px;
+    padding: 8px 2px;
+    width: 100px;
+    background-color: rgb(247, 246, 244);
+    border-radius: 10px;
+    color: rgb(139, 140, 140);
+}
+
+#selected-box{
+    margin-left: 20px;
+    padding: 8px 2px;
+    width: 100px;
+    border: 2px solid tomato;
+    background-color: rgb(251, 225, 213);
+    border-radius: 10px;
+    color: tomato;
+}
+
+#donate-input-text{
+    padding: 10px 220px 10px 210px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    text-align: center;
+}
+
+#donate-input-text:focus{
+    outline: none;
 }
