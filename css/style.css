@@ -144,6 +144,20 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#recent-campaigns{
+ text-align: center;
+ margin-top: 5%;
+}
+
+#recent-campaigns h1{
+    font-size: 2.0rem;
+    color: rgb(15, 98, 15);
+}
+
+#campaign-container{
+    display: flex;
+}
+
 #update-section{
     margin-top: 7%;
     text-align: center;
