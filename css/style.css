@@ -187,3 +187,20 @@ body{
     border: none;
     padding: 13px 15px;
 }
+
+footer{
+    padding: 10px 10px;
+    margin: 0px;
+    background-color: black;
+    text-align: center;
+}
+
+#footer-text{
+    color: orange;
+    margin: 0px;
+}
+
+footer p{
+    margin: 0px;
+    color: rgb(156, 156, 156)
+}
