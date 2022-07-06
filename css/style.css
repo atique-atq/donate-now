@@ -46,7 +46,6 @@ body{
 
 }
 
-
 #donate-now p{
     margin-bottom: 10px;
     color: rgb(152, 147, 147);
@@ -94,20 +93,69 @@ body{
 }
 
 #donate-plan{
-    margin-top: 10%;
+    margin-top: 9%;
     text-align: center;
 }
 
 #donate-plan h1{
     font-size: 2.0rem;
     color: green;
-
 }
 
 #donate-plan p{
     margin-bottom: 4%;
+    color: rgb(152, 147, 147);
+    font-family: sans-serif;
 }
 
-.donate-plan-box{
-    width: 80%;
+#donate-plan-box-food{
+    background-color: rgba(79, 157, 166, 0.1);
+    width: 60%;
+    padding: 1% 2%;
+    text-align: left;
+    border-radius: 5px;
+    margin-left: 2%; 
+    font-size: 14px; 
+}
+
+#donate-plan-box-shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+    width: 60%;
+    padding: 1% 2%;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 0px;  
+    margin-left: 2%;  
+    font-size: 14px;
+}
+
+#donate-plan-box-frame{
+    background-color: #FFF4D6;
+    width: 60%;
+    padding: 1% 2%;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 0px;  
+    margin-left: 2%;  
+    font-size: 14px;
+}
+
+.plan-box-details{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#update-section{
+    margin-top: 7%;
+    text-align: center;
+}
+
+#update-section h1{
+    font-size: 2.0rem;
+    color: tomato;
+}
+
+#update-section p{
+    margin-bottom: 10px;
+    color: rgb(152, 147, 147);
+    font-family: sans-serif;
 }
