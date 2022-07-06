@@ -166,3 +166,24 @@ body{
     color: rgb(152, 147, 147);
     font-family: sans-serif;
 }
+
+#update-form-container{
+    padding: 8% 1%;
+    margin: 1% 20%;
+    background-color: #FFF4D6;
+}
+
+#update-input{
+    margin: 0px;
+    height:30px;
+    background-color: #D9D9D9;
+    border-style: hidden;
+    padding: 5px 5px;
+}
+
+#update-button{
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 13px 15px;
+}
